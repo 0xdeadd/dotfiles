@@ -35,10 +35,10 @@ filetype plugin on
 filetype indent on
 
 " Set the backup directory
-set backupdir=~/.vim/backup//
+set backupdir=~/.vim/backup
 
 " Set the directory for swap files
-set directory=~/.vim/swap//
+set directory=~/.vim/swap
 
 " Set the undo directory
-set undodir=~/.vim/undo//
+set undodir=~/.vim/undo
