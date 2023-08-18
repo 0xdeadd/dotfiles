@@ -1,3 +1,22 @@
+set nocompatible              " Required
+filetype off                  " Required
+
+" Set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" Add all your plugins here (Example of adding a plugin)
+Plugin 'tpope/vim-fugitive'
+Plugin 'stephpy/vim-yaml'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " Required
+filetype plugin indent on    " Required
+
+
 " Enable syntax highlighting
 syntax on
 
