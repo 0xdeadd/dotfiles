@@ -11,6 +11,9 @@ Plugin 'VundleVim/Vundle.vim'
 " Add all your plugins here (Example of adding a plugin)
 Plugin 'tpope/vim-fugitive'
 Plugin 'stephpy/vim-yaml'
+Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plugin 'junegunn/fzf.vim'
+Plugin 'preservim/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " Required
@@ -28,6 +31,7 @@ set cmdheight=2
 
 " Enable line numbers
 set number
+set relativenumber
 
 " Set the tab width
 set tabstop=4
