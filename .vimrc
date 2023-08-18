@@ -65,3 +65,6 @@ set directory=~/.vim/swap
 
 " Set the undo directory
 set undodir=~/.vim/undo
+
+" map NERDTreeToggle to <C-n>
+nnoremap <C-n> :NERDTreeToggle<CR>
