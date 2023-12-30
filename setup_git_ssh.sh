@@ -17,3 +17,13 @@ cat ~/.ssh/id_rsa.pub
 
 # Test SSH connection to GitHub
 ssh -T git@github.com
+
+# Install Miniconda
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p $HOME/miniconda
+
+# Add Miniconda to PATH (ensure this matches your .bashrc)
+export PATH="$HOME/miniconda/bin:$PATH"
+
+# Initialize conda (optional, if not already in .bashrc)
+conda init bash
