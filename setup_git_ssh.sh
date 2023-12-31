@@ -27,3 +27,5 @@ export PATH="$HOME/miniconda/bin:$PATH"
 
 # Initialize conda (optional, if not already in .bashrc)
 conda init bash
+
+source ~/.bashrc
